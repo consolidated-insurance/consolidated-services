@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <h1>You want insurance???</h1>
-    <img src="./assets/16yearold.jpg">
-    <hello></hello>
+    <topbar></topbar>
+    <hero></hero>
+    <div class="container">
+      <div class="row">
+        <div class="offset-by-two eight columns">
+          <testes></testes>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Topbar from './components/Topbar'
+import Hero from './components/Hero'
+import Testes from './components/Testes'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Topbar,
+    Hero,
+    Testes
   }
 }
 </script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 </style>
