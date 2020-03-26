@@ -17,7 +17,7 @@
   left: 0;
   width: 100%;
   .box {
-    width: 25rem;
+    width: 24rem;
     background: #eeeeee;
     border: 5px solid #0c5296;
     top: 40%;
